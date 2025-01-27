@@ -1,16 +1,11 @@
-import { useState } from 'react'
-import { Provider } from 'react-redux'
-import './App.css'
-import TodoCreate from './components/TodoCreate'
+import React from 'react';
+import './App.css';
+import TodoCreate from './components/TodoCreate';
 
 function App() {
- 
-
   return (
-    <>
-      <TodoCreate />
-    </>
-  )
+    <TodoCreate />
+  );
 }
 
-export default App
+export default App;

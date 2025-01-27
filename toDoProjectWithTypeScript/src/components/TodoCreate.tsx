@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import TodoList from "./TodoList";
 import { useDispatch } from "react-redux";
 import { createTodo } from "../redux/todoSlice";
-
+import "../css/TodoCreate.css";
 function TodoCreate() {
   const dispatch = useDispatch();
   const [newTodo, setNewTodo] = useState<string>("");

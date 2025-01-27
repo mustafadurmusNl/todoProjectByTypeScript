@@ -5,7 +5,7 @@ import { TodoInitialState, TodoType } from '../types/Types'
 const initialState: TodoInitialState = {
 todos: [    
     {id: 1, content: 'Learn React'},
-    {id: 2, content: 'Learn TypeScript'},
+  
 ]
     }
 
