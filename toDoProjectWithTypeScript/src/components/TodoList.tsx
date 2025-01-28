@@ -11,9 +11,12 @@ function TodoList() {
   return (
     <div className="todo-list">
       {todos && todos.length > 0 ? (
-        todos.map((todo: TodoType) => <Todo key={todo.id} todoProps={todo} />)
+        todos.map((todo: TodoType) =>
+           <Todo key={todo.id} todoProps={todo} />)
       ) : (
-        <div className="todo-list-empty">No todos available. Start adding some!</div>
+        <div className="todo-list-empty">
+          No todos available. Start adding some!
+        </div>
       )}
     </div>
   );
