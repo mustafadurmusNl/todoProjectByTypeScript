@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import {useState} from "react";
 import { FaCheck } from "react-icons/fa";
 import { FaTrash } from "react-icons/fa";
 import { FaEdit } from "react-icons/fa";
